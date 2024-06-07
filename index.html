@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survery Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div  id="container"> 
+        <div id="heading">
+            <center id="innerheader">  <h1 id="title">CMR ENGINEERING COLLEGE</h1> </center>
+        </div>
+        <marquee behavior="" direction="right" style="color:red ; font-size: large
+        ;"  > IMPORTANT NOTICE: All level 400 Students are required to make an online submission of their results into the Colleges Database. The portal will be closed by  18th July 2022 henceforth each
+             each student should deem this information important
+  </marquee>
+
+
+    <form action="" id="studentsform" >
+        <center>  <h1>STUDENTS SURVEY PORTAL </h1> </center>
+    
+        <div class="input-group">  
+            <label id="name-label" for="text"> First Name</label>
+            <input  style="text-transform: uppercase;" type="text" id="firstname"  class="extend"  required  placeholder="Enter your name">     
+        </div>
+        <div class="input-group">  
+            <label id="name-label" for="text"> Surname</label>
+            <input style="text-transform: uppercase;"   type="text" id="surname"  class="extend"  required  placeholder="Enter your name">     
+        </div>
+
+        <div class="input-group">
+            <label id="email-label" for="email">Email</label >
+            <input style="text-transform: uppercase;"   type="email" id="email"       class="extend"  placeholder="Enter your Email"  required>
+        </div>
+
+        <div class="input-group">
+            <label  id="number-label" for="Age ">Age (Optional)</label>
+        <input type="number"  style="text-transform: uppercase;" min="18"  max="60" id="age" class="extend"   placeholder="Age" >
+
+        </div>
+
+
+    <div class="input-group">
+ 
+            <p>FILL IN YOUR RESULTS IN THE FORM BELOW</p> 
+            <p id="option">Students Results</p>
+
+        <div id="Results-calc"> 
+        
+            <div id="firstfour" >
+                <p>
+                    <p>Python
+                        <select  class =" dropdown"   name="" id="first" required >
+                            <option disabled selected >Select current grade
+                            <option value="4.0">A</option>
+                            <option value="3.5">B+</option>
+                            <option value="3">B</option>
+                            <option value="2.5">C+</option>
+                            <option value="2.0">C</option>
+                            <option value="1.5">D+</option>
+                            <option value="1.0">D</option>
+                            <option value="0">E</option>
+                    
+                        </select>
+                    </p>
+                  
+                </p> <!--grades-->
+
+            <p>
+                <p>C++
+                    <select  class =" dropdown"   name="" id="second" >
+                        <option disabled selected >Select current grade
+                            <option value="4.0">A</option>
+                            <option value="3.5">B+</option>
+                            <option value="3">B</option>
+                            <option value="2.5">C+</option>
+                            <option value="2.0">C</option>
+                            <option value="1.5">D+</option>
+                            <option value="1.0">D</option>
+                            <option value="0">E</option>
+                    </select>
+                </p>
+                </p> <!--grades-->
+           
+                <p>
+                    <p>PHP
+                        <select  class =" dropdown"   name="" id="third" >
+                            <option disabled selected >Select current grade
+                                <option value="4.0">A</option>
+                                <option value="3.5">B+</option>
+                                <option value="3.0">B</option>
+                                <option value="2.5">C+</option>
+                                <option value="2.0">C</option>
+                                <option value="1.5">D+</option>
+                                <option value="1.0">D</option>
+                                <option value="0">E</option>
+                        </select>
+                    </p>
+                </p> <!--grades-->
+                <p>
+                    <p>Javascript
+                        <select  class =" dropdown"   name="" id="fourth" >
+                            <option disabled selected >Select current grade
+                                <option value="4.0">A</option>
+                                <option value="3.5">B+</option>
+                                <option value="3">B</option>
+                                <option value="2.5">C+</option>
+                                <option value="2.0">C</option>
+                                <option value="1.5">D+</option>
+                                <option value="1.0">D</option>
+                                <option value="0">E</option>
+                        </select>
+                    </p>
+                </p> <!--grades-->
+
+            
+
+            </div><!--End of first four firstfour-->
+
+            <div>  <!--start of second four-->
+                <div id="firstfour" >
+                    <p>
+                        <p> Java
+                            <select  class =" dropdown"   name="" id="fifth" >
+                                <option disabled selected >Select current grade
+                                    <option value="4.0">A</option>
+                                    <option value="3.5">B+</option>
+                                    <option value="3">B</option>
+                                    <option value="2.5">C+</option>
+                                    <option value="2.0">C</option>
+                                    <option value="1.5">D+</option>
+                                    <option value="1.0">D</option>
+                                    <option value="0">E</option>
+                            </select>
+                        </p>
+                    </p> <!--grades-->
+    
+                <p>
+                    <p>Post SQL
+                        <select  class =" dropdown"   name="" id="sixth" >
+                            <option disabled selected >Select current grade
+                                <option value="4.0">A</option>
+                                <option value="3.5">B+</option>
+                                <option value="3">B</option>
+                                <option value="2.5">C+</option>
+                                <option value="2.0">C</option>
+                                <option value="1.5">D+</option>
+                                <option value="1.0">D</option>
+                                <option value="0">E</option>
+                        </select>
+                    </p>
+                    </p> <!--grades-->
+               
+                    <p>
+                        <p>Ruby
+                            <select  class =" dropdown"   name="" id="seventh"  >
+                                <option disabled selected >Select current grade
+                                    <option value="4.0">A</option>
+                                    <option value="3.5">B+</option>
+                                    <option value="3">B</option>
+                                    <option value="2.5">C+</option>
+                                    <option value="2.0">C</option>
+                                    <option value="1.5">D+</option>
+                                    <option value="1.0">D</option>
+                                    <option value="0">E</option>
+                            </select>
+                        </p>
+                    </p> <!--grades-->
+                    <p>
+                        <p>Jscript
+                            <select  class =" dropdown"   name="" id="eight"  >
+                                <option disabled selected >Select current grade
+                                    <option value="4.0">A</option>
+                                    <option value="3.5">B+</option>
+                                    <option value="3">B</option>
+                                    <option value="2.5">C+</option>
+                                    <option value="2.0">C</option>
+                                    <option value="1.5">D+</option>
+                                    <option value="1.0">D</option>
+                                    <option value="0">E</option>
+                            </select>
+                        </p>
+                    </p> <!--grades-->
+
+            </div><!--end of second four-->
+
+        </div> <!--Results calculator session-->
+
+    </div> <!--END OF CALCULATOR FORM-->
+     
+    
+
+
+    </div>
+
+
+ 
+
+    <div class="input-group">
+        <input id="submit" type="submit"  >
+       
+        
+
+    </div>
+
+    </form>
+    <!--GPA CALCULATOR-->
+
+
+    <!-- <div class="input-group" id="sectioncalc"> /--button session for calculation-->
+       <!-- <center>  <h2  style=" text-decoration: underline; text-shadow: 10px black;" >USER'S INFORMATION DISPLAYER</h2>     </center>
+         -->
+<!-- 
+        <div class="input-group"  id=" display">  
+       
+        <p class="space"  style="font-family: cursive; font-size: large;">Click on the button to verify your details as stored in the database   <button  id="buttonGpaCalc"  onclick="retrieveinfor()">VERIFY</button></p> 
+        -->
+       
+       
+      
+
+    <div class="input-group">  <!--already stored resutls  START-->
+
+        <center><h2 >CHECK YOUR DATA HERE <br> <h3>Please use the index your provided during the first submission </h3></h2></center>
+        
+        <p>Type in your index
+            <input id="uniqueVal"   min="0" type="text">
+
+             <input  onclick="retrieve()"  type="submit"  id="buttonGpaCal">
+
+             <input value="delete"  onclick="remove()"  type="submit"   id="buttonGpaCal"></p>
+              <P>  <button   onclick="update()"  >UPDATE</button> </P>
+              
+            
+            <div class="input-group">
+                <p id="MYINFO">
+                    MYINFO
+                </p>
+            </div>
+     
+
+    </div> <!--already stored results end-->
+
+
+
+  
+        
+
+
+       </div> <!--displayr-->
+       
+        <p id="display"  > </p>
+    </div><!--end of button session for calculation-->
+
+
+   
+</div>
+
+
+
+
+
+<script src="script.js"></script>
+    
+</body>
+</html>
